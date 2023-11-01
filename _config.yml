@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaijiang Li / Zhengzhou University"
+title                    : "Miduo Cui / Zhengzhou University"
 title_separator          : "-"
-name                     : &name "Kaijiang Li"
-description              : &description "personal description"
+name                     : &name "Miduo Cui"
+description              : &description "Studying Computer Science and Technology at the International College of Zhengzhou University."
 # url                      : http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : https://riversky-rs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cuimd-cmd..github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "riversky-rs/riversky-rs.github.io"
+repository               : "cuimd-cmd/cuimd-cmd.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,14 +81,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kaijiang Li"
+  name             : "Miduo Cui"
   avatar           : "profile.png"
   bio              : "Proficient in languages: Java, C++, Python. Areas of expertise: Artificial Intelligence, Image Processing."
   location         : "Zhengzhou, Henan, China"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "riversky@126.com"
+  email            : "cuimiduo@stu.zzu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "riversky-rs"
+  github           : "cuimd-cmd"
   google_plus      :
   keybase          :
   instagram        :
