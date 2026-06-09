@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Homepage adjustments
+   ========================================================================== */
+
+.page__content {
+  font-size: 0.95em;
+  line-height: 1.6;
+  counter-reset: pub-counter;
+}
+
+/* Educations list */
+
+.edu-list {
+  list-style: disc;
+  padding-inline-start: 2em;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 3px 0;
+  }
+
+  .edu-date {
+    white-space: nowrap;
+    min-width: 11em;
+    flex-shrink: 0;
+  }
+
+  .edu-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .edu-icon {
+    width: 20px !important;
+    height: 20px !important;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 6px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+}
+
+/* Publications list */
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  counter-increment: pub-counter;
+  position: relative;
+  padding: 0 0 0.6em 2em;
+  margin-bottom: 0.4em;
+
+  &::before {
+    content: "[" counter(pub-counter) "]";
+    position: absolute;
+    left: 0;
+    top: 0.05em;
+    font-weight: bold;
+    color: $info-color;
+    font-size: 0.9em;
+  }
+
+  .pub-venue {
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  .pub-authors {
+    display: block;
+    margin-top: 0.35em;
+  }
+}
+
+.pub-title {
+  font-weight: bold;
+  font-size: 1.05em;
+  display: block;
+  margin-bottom: 0.05em;
+}
+
+.pub-link {
+  display: inline-block;
+  margin-top: 0.2em;
+  font-size: 0.95em;
+  a {
+    margin-right: 0.3em;
+    color: $info-color;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
