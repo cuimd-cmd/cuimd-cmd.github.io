@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 70" width="100" height="70">
+  <!-- 云朵主体 -->
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8d8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6bbde0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#5aaac8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- 云朵形状：由多个圆组合 -->
+  <g filter="url(#shadow)">
+    <!-- 底部横条 -->
+    <rect x="10" y="44" width="80" height="16" rx="8" fill="url(#cloudGrad)"/>
+    <!-- 左小圆 -->
+    <circle cx="28" cy="40" r="13" fill="url(#cloudGrad)"/>
+    <!-- 中大圆 -->
+    <circle cx="50" cy="32" r="18" fill="url(#cloudGrad)"/>
+    <!-- 右中圆 -->
+    <circle cx="70" cy="38" r="14" fill="url(#cloudGrad)"/>
+  </g>
+  <!-- 高光 -->
+  <ellipse cx="44" cy="26" rx="8" ry="5" fill="white" opacity="0.35"/>
+</svg>
