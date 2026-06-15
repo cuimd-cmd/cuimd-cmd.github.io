@@ -50,8 +50,8 @@ My recent work focuses on Offline Reinforcement learning and auto-bidding in adv
 <div class="pub-item">
 <span class="pub-title">DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation</span>
 <span class="pub-venue"><i>Forty-third International Conference on Machine Learning(<b><font color="#FF0000">ICML</font></b>)</i>, in Seoul, South Korea, 2026.</span>
-<span class ="pub-link"><a href="https://arxiv.org/abs/2606.14192" target="_blank">[arXiv]</a>
 <span class="pub-authors"><u><b>Miduo Cui</b></u>, Haochen Wang, Shangqin Mao, Xun Yang, Qianlong Xie, Xingxing Wang, Xuri Ge, Ying Zhou, and Zhiwei Xu</span>
+<span class ="pub-link"><a href="https://arxiv.org/abs/2606.14192" target="_blank">[arXiv]</a></span>
 </div>
 
 <div class="pub-item">
